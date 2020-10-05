@@ -1,0 +1,90 @@
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	max-width: 1000px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.main {
+	display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex: 4;
+}
+
+.heroSidebar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 4;
+}
+ .mainExtra {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+ }
+
+ .related {
+	display: flex;
+  flex-direction: row;
+  flex: 1;
+ }
+
+header {
+	background-color: blue;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.hero {
+	background-color: violet;
+	margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+
+.sidebar {
+	background-color: green;
+	margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 6;
+}
+
+.maincont {
+	background-color: yellow;
+	margin-bottom: 10px;
+  text-align: center;
+  flex: 6;
+}
+
+.extra {
+	background-color: gray;
+	margin-bottom: 10px;
+  text-align: center;
+  flex: 4;
+}
+
+.images {
+	background-color: green;
+	margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
+}
+
+.posts {
+	background-color: pink;
+	margin-bottom: 10px;
+  text-align: center;
+  flex: 2;
+}
+
+footer {
+	background-color: orange;
+	text-align: center;
+}
